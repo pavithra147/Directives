@@ -12,5 +12,8 @@ export class ComponentforserviceComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+ 
+  Increase(){
+    this._maths.addOne();
+  }
 }
